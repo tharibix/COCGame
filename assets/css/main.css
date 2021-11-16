@@ -79,22 +79,22 @@ nav figure img {
 .th-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 30px;
+    gap: 50px;
 }
 
 .th-card {
-    width: 200px;
+    width: 150px;
 }
 
 .th-card a img {
     width: 100%;
-    height: 200px;
+    height: 150px;
     object-fit: cover;
 }
 
 .th-card a img:hover {
     cursor: pointer;
-    border-radius: 40px;
+    border-radius: 10px;
     box-shadow: 0 0 20px var(--crimson);
     padding: 10px;
 }
